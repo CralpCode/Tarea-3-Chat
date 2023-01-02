@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #30336b;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+}
+
+#valor {
+  padding: 5px;
+  overflow-x: visible;
+  overflow-y: auto;
+  width: 90%;
+  height: 90%;
+  color: #fff;
+  background-color: #05001e;
+  margin-left: 5%;
+  justify-self: left;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 0.5rem;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+}
+
+#name {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+}
+
+#recibetxt {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+}
+
+#envio {
+  width: 100%;
+  color: #fff;
+  background-color: #05001e;
+  border-radius: 0.5rem;
+}

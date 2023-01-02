@@ -1,0 +1,33 @@
+{
+  "name": "tarea-3-chat",
+  "version": "1.0.0",
+  "description": "Chat simple con node, express y socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node /public/index.html",
+    "dev": "nodemon /public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CralpCode/Tarea-3-Chat.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket.io"
+  ],
+  "author": "CralpCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CralpCode/Tarea-3-Chat/issues"
+  },
+  "homepage": "https://github.com/CralpCode/Tarea-3-Chat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

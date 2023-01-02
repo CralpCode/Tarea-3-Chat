@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../src/index.css" />
+    <title>Chat</title>
+</head>
+<body>
+    <img src="./assets/Webchatea.png" />
+    <div id="valor"></div>
+    <form id="formulario">
+      <input type="text" id="name" placeholder="Ingresa tu nombre" />
+      <input type="text" id="recibetxt" placeholder="Ingresa un mensaje" />
+      <input type="submit" value="Enviar" id="envio" />
+    </form>
+    <script type="text/javascript" src="../socket.io/socket.io.min.js"></script>
+    <script type="text/javascript" src="../src/chat.js"></script>
+</body>
+</html>
